@@ -6,20 +6,19 @@ Data used is the  [coffee quality dataset](https://github.com/jldbc/coffee-quali
 
 ##
 Requirements:
-- condamini or conda
-- or pyenv with Python: 3.8.5
+- pyenv with Python: 3.8.5
 
-## Setup
-Having Anaconda installed then create your ENV with
+### Environment
 
-```bash
-make setup-conda
-```
+Same procedure as last time...
 
-With pyenv installed
+Use the requirements file in this repo to create a new environment.
 
-```bash
-make setup-pyenv
+```BASH
+pyenv local 3.8.5
+python -m venv .venv
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 ## Usage
