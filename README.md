@@ -15,6 +15,10 @@ Same procedure as last time...
 Use the requirements file in this repo to create a new environment.
 
 ```BASH
+make setup 
+
+#or 
+
 pyenv local 3.8.5
 python -m venv .venv
 pip install --upgrade pip
