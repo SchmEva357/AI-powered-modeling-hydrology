@@ -30,6 +30,9 @@ pip install -r requirements.txt
 In order to train the model and store test data in the data folder and the model in models run:
 
 ```bash
+#activate env
+source .venv/bin/activate
+
 python train.py  
 ```
 
