@@ -3,7 +3,10 @@ import parsenvy
 
 logger = logging.getLogger(__name__)
 
-
 # mlflow
-TRACKING_URI = "use the correct link here and rename file to delete _template"
-EXPERIMENT_NAME = "ds-modeling-template"
+try:
+    TRACKING_URI = open(".mlflow_uri").read()
+except:
+    TRACKING_URI = parsenvy.str("MLFLOW_URI")
+
+EXPERIMENT_NAME = "0-template-ds-modeling"
