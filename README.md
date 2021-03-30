@@ -78,7 +78,7 @@ python -m modeling.train
 In order to test that predict works on a test set you created run:
 
 ```bash
-python modeling/predict.py models/linear_regression_model.sav data/X_test.csv data/y_test.csv
+python modeling/predict.py models/linear data/X_test.csv data/y_test.csv
 ```
 
 ## Limitations
