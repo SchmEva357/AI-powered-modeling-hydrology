@@ -33,13 +33,13 @@ The requirements.txt file contains the libraries needed for deployment.. of mode
 The MLFLOW URI should not be stored on git, you have two options, to save it locally in the .mlflow_uri file:
 
 ```BASH
-echo http://127.0.0.1 > .mlflow_uri
+echo http://127.0.0.1:5000/ > .mlflow_uri
 ```
 
 this will create a local file where the uri is stored. Alternatively you can export it as an environment variable with
 
 ```bash
-export MLFLOW_URI=http://127.0.0.1
+export MLFLOW_URI=http://127.0.0.1:5000/
 ```
 
 This links to your local mlflow, if you want to use a different one, then change the set uri.
