@@ -1,11 +1,14 @@
 # ds-modeling-pipeline
+
 Skeleton project for building a simple model in python script
 This is the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
 
-Data used is the  [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
+Data used is the [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
 
 ##
+
 Requirements:
+
 - pyenv with Python: 3.8.5
 
 ### Environment
@@ -15,15 +18,17 @@ Same procedure as last time...
 Use the requirements file in this repo to create a new environment.
 
 ```BASH
-make setup 
+make setup
 
-#or 
+#or
 
 pyenv local 3.8.5
 python -m venv .venv
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements_dev.txt
 ```
+
+The requirements.txt file contains the libraries needed for deployment.. of model or dashboard .. thus no jupyter or other libs used during development.
 
 ## Usage
 
@@ -33,7 +38,7 @@ In order to train the model and store test data in the data folder and the model
 #activate env
 source .venv/bin/activate
 
-python train.py  
+python train.py
 ```
 
 In order to test that predict works on a test set you created run:
