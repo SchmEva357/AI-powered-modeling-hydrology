@@ -1,19 +1,21 @@
 # ds-modeling-pipeline
 
-Skeleton project for building a simple model in python script
-This is the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
+Here you find a Skeleton project for building a simple model in a python script or notebook and log the results on MLFlow.
+
+There are two ways to do it: 
+* In Jupyter Notebooks:
+    We train a simple model in the [jupyter notebook](notebooks/EDA-and-modeling.ipynb), where we select only some features and do minimal cleaning. The hyperparameters of feature engineering and modeling will be logged with MLflow
+
+* With Python scripts:
+    The [main script](modeling/train.py) will go through exactly the same process as the jupyter notebook and also log the hyperparameters with MLflow
 
 Data used is the [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
 
-##
-
-Requirements:
+## Requirements:
 
 - pyenv with Python: 3.8.5
 
 ### Setup
-
-Same procedure as last time...
 
 Use the requirements file in this repo to create a new environment.
 
@@ -29,15 +31,15 @@ pip install --upgrade pip
 pip install -r requirements_dev.txt
 ```
 
-The requirements.txt file contains the libraries needed for deployment.. of model or dashboard .. thus no jupyter or other libs used during development.
+The `requirements.txt` file contains the libraries needed for deployment.. of model or dashboard .. thus no jupyter or other libs used during development.
 
-The MLFLOW URI should not be stored on git, you have two options, to save it locally in the .mlflow_uri file:
+The MLFLOW URI should **not be stored on git**, you have two options, to save it locally in the `.mlflow_uri` file:
 
 ```BASH
 echo http://127.0.0.1:5000/ > .mlflow_uri
 ```
 
-this will create a local file where the uri is stored. Alternatively you can export it as an environment variable with
+This will create a local file where the uri is stored which will not be added on github (`.mlflow_uri` is in the `.gitignore` file). Alternatively you can export it as an environment variable with
 
 ```bash
 export MLFLOW_URI=http://127.0.0.1:5000/
@@ -65,7 +67,7 @@ mlflow ui
 
 and open the link [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
-This will throw an error if the experiment already exists. Save the experiment name in the [config file](modeling/config.py)
+This will throw an error if the experiment already exists. **Save the experiment name in the [config file](modeling/config.py).**
 
 In order to train the model and store test data in the data folder and the model in models run:
 
