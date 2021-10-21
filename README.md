@@ -13,7 +13,7 @@ Data used is the [coffee quality dataset](https://github.com/jldbc/coffee-qualit
 
 ## Requirements:
 
-- pyenv with Python: 3.8.5
+- pyenv with Python: 3.9.4
 
 ### Setup
 
@@ -24,7 +24,7 @@ make setup
 
 #or
 
-pyenv local 3.8.5
+pyenv local 3.9.4
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
