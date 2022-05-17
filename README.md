@@ -24,7 +24,7 @@ make setup
 
 #or
 
-pyenv local 3.9.4
+pyenv local 3.9.8
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
