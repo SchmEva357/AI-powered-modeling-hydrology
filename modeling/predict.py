@@ -31,7 +31,7 @@ y_test = pd.read_csv(y_test_path)
 # feature eng on test data
 print("Feature engineering")
 X_test = transform_altitude(X_test)
-X_test = drop_column(X_test, col_name="Unnamed: 0.1")
+X_test = drop_column(X_test, col_name="Unnamed: 0")
 X_test = drop_column(X_test, col_name="Quakers")
 X_test = fill_missing_values(X_test)
 
