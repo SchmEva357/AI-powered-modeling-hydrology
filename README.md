@@ -13,7 +13,7 @@ Data used is the [coffee quality dataset](https://github.com/jldbc/coffee-qualit
 
 ## Requirements:
 
-- pyenv with Python: 3.9.4
+- pyenv with Python: 3.11.3
 
 ### Setup
 
