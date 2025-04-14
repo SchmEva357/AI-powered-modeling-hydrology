@@ -87,8 +87,8 @@ The CNN-LSTM model combines:
 
 ## 📬 Contact
 
-Created by **Utku** – feel free to reach out via [LinkedIn/GitHub/email/etc.]
+Created by ** Project Satellite Team ** – feel free to reach out via https://github.com/SchmEva357/ds-capstone-AI-powered
 
 ## 📜 License
 
-MIT License — feel free to use, share, and build upon this work!
+MIT License — feel free to use, share, and build upon this work! If you use this code in your research, please cite: https://github.com/SchmEva357
