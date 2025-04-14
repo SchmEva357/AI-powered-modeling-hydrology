@@ -1,0 +1,37 @@
+# Python virtual environment
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model checkpoints and outputs
+*.h5
+*.ckpt
+*.tflite
+*.pb
+*.pth
+*.pt
+
+# Raster and satellite image outputs
+*.tif
+*.tiff
+*.jp2
+*.png
+
+# Temporary data
+tmp/
+temp/
