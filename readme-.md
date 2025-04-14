@@ -36,8 +36,8 @@ This project provides an end-to-end solution for water body detection and predic
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/satellite-water-prediction.git
-   cd satellite-water-prediction
+   git clone https://github.com/SchmEva357/ds-capstone-AI-powered.git
+   cd ds-capstone-AI-powered
    ```
 
 2. Install the required packages:
@@ -111,7 +111,7 @@ The model uses a hybrid CNN-LSTM architecture:
   - Single LSTM layer with 16 units
 
 - **Future Exogenous Input**: Additional input for future exogenous factors at prediction time
-  - Dense layer with 4 units
+  - Dense layer with four units
 
 - **Output**: Dense layer reshaped to match the original image dimensions
   - Sigmoid activation for binary water mask prediction
@@ -125,17 +125,17 @@ The model uses a hybrid CNN-LSTM architecture:
 
 ## Results
 
-The model successfully predicts water body extents in the Isar riverbed, capturing both seasonal variations and responses to extreme weather events. Key findings include:
+The model successfully predicts water body extents in the Isar riverbed, capturing seasonal variations and responses to extreme weather events. Key findings include:
 
 - **Spatial Accuracy**: The model accurately captures the spatial distribution of water bodies, particularly in areas with well-defined river channels.
-- **Temporal Dynamics**: The integration of exogenous factors improves the model's ability to predict changes in water extent due to precipitation events or discharge variations.
+- **Temporal Dynamics**: Integrating exogenous factors improves the model's ability to predict changes in water extent due to precipitation events or discharge variations.
 - **Limitations**: The model's performance is constrained by the resolution of Sentinel-2 imagery (10 meters), which may not capture very narrow water channels.
 
 ## Future Improvements
 
 The following improvements could enhance the project:
 
-- **Loss Function**: Implement Dice Loss or a combination of Dice Loss and binary cross-entropy for better handling of imbalanced datasets.
+- **Loss Function**: Implement Dice Loss or a combination of Dice Loss and binary cross-entropy to better handle imbalanced datasets.
 - **Multi-Sensor Data Fusion**: Incorporate Sentinel-1 SAR data for cloud-penetration capabilities.
 - **Advanced Architectures**: Explore U-Net or Transformer-based models for improved spatial feature extraction.
 - **Uncertainty Quantification**: Implement methods to quantify prediction uncertainty.
@@ -149,16 +149,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Citation
 
-If you use this code in your research, please cite:
+If you use this code in your research, please cite: https://github.com/SchmEva357
 
-```
-@software{satellite-water-prediction,
-  author = {Your Name},
-  title = {Satellite Imagery Water Body Detection and Prediction},
-  year = {2025},
-  url = {https://github.com/yourusername/satellite-water-prediction}
-}
-```
 
 ## Acknowledgments
 
