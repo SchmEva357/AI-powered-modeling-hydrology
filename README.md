@@ -60,7 +60,7 @@ This project provides an end-to-end solution for water body detection and predic
 - **Cloud Filtering**: Images with less than 30% cloud coverage
 
 ### Exogenous Factors
-- **Precipitation Data**: Obtained from Open-Meteo
+- **Precipitation Data**: Obtained from Gewässerkundlicher Dienst Bayern
 - **Discharge Measurements**: Provided by Gewässerkundlicher Dienst Bayern
 - **Temporal Resolution**: Daily measurements
 - **Dataset Name**: `final_dataset.csv`
