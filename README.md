@@ -56,7 +56,7 @@ This project provides an end-to-end solution for water body detection and predic
 
 ### Satellite Imagery
 - **Sentinel-2**: Multi-spectral imagery obtained from Google Earth Engine, with a spatial resolution of 10 meters.
-- **Time Period**: 2015-06-27 to 2025-03-31
+- **Time Period**: 2017-04-24 to 2025-03-31
 - **Cloud Filtering**: Images with less than 30% cloud coverage
 
 ### Exogenous Factors
