@@ -131,7 +131,7 @@ The model successfully predicts river course shifts in the Isar riverbed, captur
 
 The following improvements could enhance the project:
 
-- **Digital Elevation Model (DEM)**: By incorpareting the DEM, preferential river paths can be identified. Furthermore the DEM could be updated  to reflect changes due to erosion and sedimentation processes. 
+- **Digital Elevation Model (DEM)**: By incorporating the DEM, preferential river paths can be identified. Furthermore, the DEM can be updated  to reflect changes caused by erosion and sedimentation processes. 
 - **Loss Function**: Implement Dice Loss or a combination of Dice Loss and binary cross-entropy to better handle imbalanced datasets.
 - **Multi-Sensor Data Fusion**: Integrate Sentinel-1 SAR data for enhanced cloud-penetration capabilities.
 - **Advanced Architectures**: Explore U-Net or Transformer-based models for improved spatial feature extraction.
