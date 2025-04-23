@@ -127,6 +127,9 @@ The model successfully predicts river course shifts in the Isar riverbed, captur
 - **Temporal Dynamics**: Incorporating additional factors enhance the model's ability to predict changes in the river course dynamics caused by erosion and sedimentation processes.
 - **Limitations**: The model's performance is constrained by the resolution of Sentinel-2 imagery (10 meters), which may not capture very narrow water channels.
 
+![Example for the prediction of river course shift over time.](river_shift_overlay.png)
+*Example for the prediction of river course shift over time. Blue areas indicate the future river course, while red areas are going to be disminshed.*
+
 ## Future Improvements
 
 The following improvements could enhance the project:
