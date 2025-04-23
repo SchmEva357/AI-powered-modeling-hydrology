@@ -130,6 +130,9 @@ The model successfully predicts river course shifts in the Isar riverbed, captur
 ![Example for the prediction of river course shift over time.](river_shift_overlay.png)
 *Example for the prediction of river course shift over time. Blue areas indicate the future river course, while red areas are going to be disminshed.*
 
+![Streamlit application of the predicted river course shift.](streamlit_application.png)
+*This screenshot illustrates the Streamlit application, where users can simulate different scenarios of river course shifts using adjustable parameters (e. g. cumulative precipitation, extreme events and forecast period) and view interactive map outputs.* 
+
 ## Future Improvements
 
 The following improvements could enhance the project:
