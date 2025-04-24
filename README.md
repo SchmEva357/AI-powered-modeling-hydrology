@@ -152,11 +152,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Citation
 
-If you use this code in your research, please cite: https://github.com/SchmEva357
+If you use this code in your research, please cite: https://github.com/SchmEva357 (Utku Oezkan, M. Sc. Trade and Management; Eva Schmidt, M. Sc. Geoecology)
 
 
 ## Acknowledgments
 
-- Gewässerkundlicher Dienst Bayern for providing discharge data
-- Open-Meteo for climate data
-- Google Earth Engine for satellite imagery access
+This work includes modified Copernicus Sentinel-2 Level-2A data (© ESA, 2025), accessed and processed using Google Earth Engine (https://earthengine.google.com). We also thank the Bavarian Hydrological Service (Gewässerkundlicher Dienst Bayern) for providing discharge and precipitation data.
