@@ -1,10 +1,15 @@
-# AI-Powered Modeling of River Course Dynamics in Mountain Regions
+# AI-Powered Modeling of River Course Dynamics in Alpine Regions
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.15+](https://img.shields.io/badge/tensorflow-2.15+-orange.svg)](https://www.tensorflow.org/)
 
-A comprehensive workflow for processing satellite imagery and predicting water bodies using a CNN-LSTM model that integrates remote sensing data with additional hydrological factors. This project focuses on monitoring river course shifts in alpine regions, specifically in the upper reaches of the Isar River. By leveraging data-driven techniques, this approach provides a valuable alternative to traditional physics-based hydrological models, particularly in data-sparse or topographically complex environments.
+This repository presents a comprehensive workflow for processing satellite imagery and predicting river course dynamics using a CNN-LSTM model that integrates remote sensing data with additional hydrological factors. The project focuses on monitoring river course changes in alpine environments, with a case study in the upper reaches of the Isar River.
+
+Unlike traditional physics-based hydrological models, this data-driven approach directly learns the relationship between environmental variables (e.g., discharge and precipitation) and resulting river morphology, without explicitly modeling hydrological processes via static inputs like Digital Elevation Models (DEMs).
+
+A key feature of this workflow is its transferability:
+We deliberately avoid the implementation of region-specific, static, or non-variable parameters. Instead, location-dependent interactions—such as how particular precipitation or discharge patterns relate to river course shifts—are captured through the combination of satellite imagery and hydrological data within the model itself. This design enables the workflow to be readily applied to other catchments, especially in data-scarce or topographically complex regions.
 
 Predicting river course shifts in alpine regions is crucial for flood risk management, as changes in the riverbed can quickly create new flood-prone areas. Alterations in flow pathways may undermine or destroy nearby infrastructure — such as roads — simply through natural channel migration. From a conservation perspective, tracking these shifts allows for monitoring and forecasting changes in riparian habitat zones, which directly impact biodiversity. Early warning of channel migration supports proactive measures to protect both human assets and sensitive ecosystems. 
 
