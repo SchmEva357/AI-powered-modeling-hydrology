@@ -89,10 +89,9 @@ The project workflow consists of five main steps (implemented in the notebook "W
 - Train the model using binary cross-entropy loss and Intersection over Union (IoU) as evaluation metric
 - Save the trained model for inference and reproducibility
 
-### 5. Visualization and Analysis
+### 5. Visualization 
 - Generate predictions of water masks on test data
 - Create heatmaps to visualize river course shifts over time
-- Evaluate model performance using accuracy metrics and qualitative comparison
 
 ## Model Architecture
 
