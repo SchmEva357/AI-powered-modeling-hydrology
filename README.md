@@ -109,6 +109,8 @@ The model employs a hybrid CNN-LSTM architecture to leverage both spatial and te
 
 - **LSTM Component**: Processes time-series data of exogenous factors to capture temporal dependencies
   - A single LSTM input layer with 16 units to model sequential patterns over time
+ 
+--> _The spatial features from the CNN branch and the temporal features from the LSTM branch are concatenated._
 
 - **Future Exogenous Input**: Incorporates future additional factors (e.g. retrieved from the weather forecast) during prediction
   - A dense layer with four units to process future inputs and integrate them into the model
